@@ -1,11 +1,11 @@
 # ISEC6000-assignment1--task1
-# 1)	Environmental Set Up:
+## 1)	Environmental Set Up:
 
 1)	Create an account on the Google cloud platform to access the Kubernetes Engine. In order to use Kubernetes engine, we must register to google cloud platform.
 2)	Log in the personal Google cloud account and Created a Project named “ISEC6000”.
 3)	Remember to register the payment method before attempting to create a cluster. It is must to have a billable cloud account to access and deploy the cluster privilege.
 
-# 2)	Creating Kubernetes Cluster on GKE:
+## 2)	Creating Kubernetes Cluster on GKE:
 
 After environmental setup, follow the below steps to create a cluster in Kubernetes.
 1)	In the ISEC6000 project, navigated inside Kubernetes Engine > Cluster > Enable the API > Create.
@@ -32,7 +32,7 @@ Fig:1.3   Configure Node pool
 
 
 
-# 3)    Install and configure Kubernetes:
+## 3)    Install and configure Kubernetes:
 1.	The Cluster was created in the name of the isec6000-cluster-1 as shown in the Fig 1.4
 2.	Google cloud and Kubernetes can be accessed remotely from laptop/Pc with the help of Google cloud shell.
 3.	The cloud shell can be activated from cloud console, click on “Activate cloud shell” to access the cloud shell. The cloud shell terminal will prompt in sometime.
