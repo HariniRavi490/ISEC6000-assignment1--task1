@@ -1,4 +1,4 @@
-# ISEC6000-assignment1--task1
+# Create Kubernetes Cluster on Google Kubernetes Engine:
 ## 1)	Environmental Set Up:
 
 1)	Create an account on the Google cloud platform to access the Kubernetes Engine. In order to use Kubernetes engine, we must register to google cloud platform.
@@ -17,7 +17,10 @@ After environmental setup, follow the below steps to create a cluster in Kuberne
   ```
 5)	In next step, configured the default Kubernetes version and node pool with 3 number of nodes.
 
+
 ![image](https://github.com/HariniRavi490/ISEC6000-assignment1--task1/assets/95735756/a46f54c1-843b-40d1-9569-6252a6d0bf46)
+
+
 
 
  ![image](https://github.com/HariniRavi490/ISEC6000-assignment1--task1/assets/95735756/6e30d6dc-4339-455d-96f6-e9c889cf2e04)
@@ -25,10 +28,12 @@ After environmental setup, follow the below steps to create a cluster in Kuberne
 Fig1.2    Configured Kubernetes Version
 
 
+
 ![image](https://github.com/HariniRavi490/ISEC6000-assignment1--task1/assets/95735756/f900c881-c15c-496f-8719-da25422f8531)
 
  
 Fig:1.3   Configure Node pool
+
 
 
 
@@ -45,6 +50,7 @@ gcloud config set compute/zone australia-southeast2-b
 
 gcloud container clusters get-credentials isec6000-cluster-1 –zone australia-southeast2-b –project [PROJECT_ID]
 ```
+
 
  ![image](https://github.com/HariniRavi490/ISEC6000-assignment1--task1/assets/95735756/340cb0d1-3046-4584-b47b-60ea69784304)
 
