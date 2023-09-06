@@ -10,11 +10,10 @@
 After environmental setup, follow the below steps to create a cluster in Kubernetes.
 1)	In the ISEC6000 project, navigated inside Kubernetes Engine > Cluster > Enable the API > Create.
    ![image](https://github.com/HariniRavi490/ISEC6000-assignment1--task1/assets/95735756/c3e6e87b-17b7-4f60-9c8f-d162fffe9dab)
-  	![image](https://github.com/HariniRavi490/ISEC6000-assignment1--task1/assets/95735756/d6fb592a-4bc8-4e86-a8ed-6ac966394c76)
 
 
 3)	Configured the cluster named as isec6000cluster-1 and set the zone as
-   ```docker
+   ```python
   	  Australia-southeast2-b
   ```
 5)	In next step, configured the default Kubernetes version and node pool with 3 number of nodes.
